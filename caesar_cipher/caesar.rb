@@ -13,7 +13,7 @@ def caesar_cipher(string, shift)
             encoded_string += ch
         end
     end
-    encoded
+    encoded_string
 end
 
 puts caesar_cipher("WAhat a string!", 5)
